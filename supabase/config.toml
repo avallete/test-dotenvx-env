@@ -94,6 +94,7 @@ enabled = false
 
 [db.vault]
 test_vault_secret = "env(TEST_VAULT_SECRET)"
+test_vault_secret_1 = "env(TEST_VAULT_SECRET_1)"
 
 [edge_runtime.secrets]
 edge_runtime_secret = "env(EDGE_RUNTIME_SECRET)"
@@ -104,4 +105,5 @@ project_id = "hjfmrmnswprviqpvfjuj"
 
 [remotes.staging.edge_runtime.secrets]
 edge_runtime_secret = "env(EDGE_RUNTIME_SECRET)"
+edge_runtime_secret_1 = "env(EDGE_RUNTIME_SECRET_1)"
 custom_edge_secret = '"env(EDGE_RUNTIME_SECRET)'
