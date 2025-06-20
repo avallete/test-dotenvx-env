@@ -98,8 +98,8 @@ test_vault_secret_1 = "env(TEST_VAULT_SECRET_1)"
 test_vault_secret_2 = "env(TEST_VAULT_SECRET_2)"
 
 [edge_runtime.secrets]
-edge_runtime_secret = "env(EDGE_RUNTIME_SECRET)"
-custom_edge_secret = "env(EDGE_RUNTIME_SECRET)"
+edge_runtime_secret = "env(EDGE_RUNTIME_SECRET_LATEST)"
+custom_edge_secret = "env(EDGE_RUNTIME_SECRET_LATEST)"
 
 [remotes.staging]
 project_id = "pxtykujmizqsxbbvghwq"
